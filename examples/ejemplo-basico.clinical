@@ -1,0 +1,69 @@
+{
+  "project": {
+    "name": "Factores asociados a hipertensión arterial",
+    "specialty": "Medicina Interna",
+    "date": "2026-06-29"
+  },
+  "variables": [
+    {
+      "name": "edad",
+      "type": "Cuantitativa Discreta",
+      "description": "Edad cronológica del paciente en años cumplidos.",
+      "metadata": {
+        "question": "¿Qué edad tiene el paciente?",
+        "unit": "años",
+        "range": {
+          "min": "18",
+          "max": "100"
+        },
+        "categories": []
+      }
+    },
+    {
+      "name": "sexo",
+      "type": "Nominal Dicotómica",
+      "description": "Sexo biológico registrado en la fuente de datos.",
+      "metadata": {
+        "question": "¿Cuál es el sexo biológico?",
+        "unit": "",
+        "range": {
+          "min": "",
+          "max": ""
+        },
+        "categories": [
+          {
+            "label": "Masculino",
+            "synonyms": ["m", "masculino", "hombre", "1"]
+          },
+          {
+            "label": "Femenino",
+            "synonyms": ["f", "femenino", "mujer", "2"]
+          }
+        ]
+      }
+    },
+    {
+      "name": "hta",
+      "type": "Nominal Dicotómica",
+      "description": "Antecedente personal de hipertensión arterial referido o registrado en la historia clínica.",
+      "metadata": {
+        "question": "¿Tiene antecedente de hipertensión arterial?",
+        "unit": "",
+        "range": {
+          "min": "",
+          "max": ""
+        },
+        "categories": [
+          {
+            "label": "Sí",
+            "synonyms": ["si", "sí", "s", "1"]
+          },
+          {
+            "label": "No",
+            "synonyms": ["no", "n", "0"]
+          }
+        ]
+      }
+    }
+  ]
+}
